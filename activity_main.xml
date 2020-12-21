@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/emailErrorReg"
+        android:layout_width="136dp"
+        android:layout_height="51dp"
+        android:layout_x="27dp"
+        android:layout_y="358dp"
+        android:text=""
+        android:textColor="#F7F10C14" />
+
+    <TextView
+        android:id="@+id/passwordErrorReg"
+        android:layout_width="136dp"
+        android:layout_height="51dp"
+        android:layout_x="26dp"
+        android:layout_y="417dp"
+        android:text=""
+        android:textColor="#F7F10C14" />
+
+    <TextureView
+        android:id="@+id/textureView3"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_x="0dp"
+        android:layout_y="674dp"
+        android:scrollbarThumbHorizontal="@drawable/bg" />
+
+    <Button
+
+        android:id="@+id/register"
+        style="@android:style/Widget.Holo.Light.Button.Inset"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_x="30dp"
+        android:layout_y="614dp"
+        android:background="@drawable/bg"
+
+        android:fontFamily="sans-serif-condensed-medium"
+        android:scrollbarTrackHorizontal="@mipmap/ic_launcher"
+        android:shadowDx="10000"
+        android:text="להמשך"
+        android:textColorLink="#00BE1717"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:layout_x="-38dp"
+        android:layout_y="5dp"
+        android:gravity="center"
+        android:text="Kidzcash"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="70sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="91dp"
+        android:layout_height="61dp"
+        android:layout_x="318dp"
+        android:layout_y="42dp"
+        app:srcCompat="@drawable/kc" />
+
+    <TextView
+        android:layout_width="344dp"
+        android:layout_height="116dp"
+        android:layout_x="64dp"
+        android:layout_y="155dp"
+        android:text="רישום הורים"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="195dp"
+        android:layout_y="303dp"
+        android:ems="10"
+        android:hint="שם"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/emailReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="197dp"
+        android:layout_y="363dp"
+        android:ems="10"
+        android:hint="דואר אלקטרוני"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/passwordReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="197dp"
+        android:layout_y="422dp"
+        android:ems="10"
+        android:hint="סיסמא"
+        android:inputType="textPassword"
+        android:textAlignment="viewEnd" />
+
+    <EditText
+        android:id="@+id/exDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="196dp"
+        android:layout_y="484dp"
+        android:ems="10"
+        android:hint="תאריך תפוגה"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/cvv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="196dp"
+        android:layout_y="548dp"
+        android:ems="10"
+        android:hint="CVV"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/creditCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="195dp"
+        android:layout_y="610dp"
+        android:ems="10"
+        android:hint="מספר כרטיס אשראי"
+        android:inputType="number" />
+
+    <Button
+
+        android:id="@+id/scan"
+        style="@android:style/Widget.Holo.Light.Button.Inset"
+
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_x="30dp"
+
+        android:layout_y="534dp"
+        android:background="@drawable/bg"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:scrollbarTrackHorizontal="@mipmap/ic_launcher"
+        android:shadowDx="10000"
+        android:text="אני ילד"
+        android:textColorLink="#00BE1717" />
+
+</AbsoluteLayout>
